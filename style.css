@@ -1,0 +1,67 @@
+﻿*{
+    margin: 0;
+}
+header{
+    background-color: rgba(0,0,0,0.8);
+    padding : 20px;
+    position: fixed;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.logo{
+    width: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    float: left;
+}
+.navbar ul li {
+    margin-left: 20px;
+    
+}
+.navbar ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.banner-section img{
+    width: 100vw;
+    background-size: cover;
+    vertical-align: top;
+}
+.about-section,
+.services-section,
+.contact-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.about-section {
+    background-color: #c4c6f1;
+}
+.services-section {
+    background-color: #c4f1f0;
+}
+.contact-section {
+    background-color: #d2f1c4;
+}
+.container {
+    margin: auto 15%;
+}
+.container p{
+    padding: 10px 0;
+}
